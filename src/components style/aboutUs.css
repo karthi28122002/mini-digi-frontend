@@ -1,0 +1,640 @@
+.About-Us-Section {
+    height: 43vw;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+
+.About-Us-Section .about-us-img {
+    background-image: url("../images//about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 32vw;
+    height: 29vw;
+    background-position: center;
+}
+
+.About-Us-Section .about-us-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.About-Us-Section .about-us-content {
+    
+}
+
+.About-Us-Section .about-us-row .about-us-content h2 {
+    color: #213b52;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.About-Us-Section .about-us-row .about-us-content p {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+    display: flex;
+    height: 8vw;
+    align-content: center;
+    align-items: center;
+}
+
+.About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+    font-size: 30px;
+    margin-bottom: 17px;
+}
+
+.About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+@media (min-width:100px) and (max-width:300px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .About-Us-Section {
+        height: 160vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 140vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+        
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 85vw;
+        height: 63vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:301px) and (max-width:380px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 16vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 10px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .About-Us-Section {
+        height: 160vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 157vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 85vw;
+        height: 63vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:381px) and (max-width:480px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 16vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 13px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 160vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 157vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 91vw;
+        height: 66vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:481px) and (max-width:576px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 16vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 13px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 140vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 130vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 91vw;
+        height: 66vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:577px) and (max-width:680px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 16vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 29px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 140vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 130vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 91vw;
+        height: 66vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:681px) and (max-width:768px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 16vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 75vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 70vw;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 91vw;
+        height: 66vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 10vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 14px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 50vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 45vw;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 42vw;
+        height: 37vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 10vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 40vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 38vw;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 35vw;
+        height: 29vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 10vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 35vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 38vw;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 35vw;
+        height: 30vw;
+        background-position: center;
+    }
+}
+
+@media (min-width:1401px) and (max-width:1600px) {
+    .About-Us-Section .about-us-row .about-us-content p {
+        color: grey;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized {
+        display: flex;
+        height: 10vw;
+        align-content: center;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content h2 {
+        color: #213b52;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 35px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside strong {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+    }
+
+    .About-Us-Section .about-us-row .about-us-content .about-us-specialized .about-us-spec-inside svg {
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    .About-Us-Section {
+        height: 35vw;
+        display: flex;
+        align-items: center;
+        background: white;
+    }
+
+    .About-Us-Section .about-us-row {
+        display: flex;
+        height: 31vw;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    .About-Us-Section .about-us-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 35vw;
+        height: 30vw;
+        background-position: center;
+    }
+}

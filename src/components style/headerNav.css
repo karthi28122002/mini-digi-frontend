@@ -1,0 +1,74 @@
+.Header-Nav {
+
+}
+
+.Header-Nav .bg-body-tertiary {
+    background: #213b52!important;
+}
+
+.Header-Nav .bg-body-tertiary .container {
+   
+}
+
+.Header-Nav .bg-body-tertiary .container .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.Header-Nav .bg-body-tertiary .container .navbar-brand span {
+   color: yellow;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    justify-content: flex-end;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: 40vw;
+}
+
+.bg-body-tertiary .container .navbar-collapse .navbar-nav .nav-link {
+    color: #bebebe;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    transition: .3s ease-out;
+  }
+
+  .bg-body-tertiary .container .navbar-collapse .navbar-nav .nav-link:hover {
+    color: white;
+    transition: .3s ease-in;
+  }
+  
+  .bg-body-tertiary .container .navbar-collapse .navbar-nav .nav-link span {
+    border: 2px solid orange;
+    padding: 9px;
+    border-radius: 25px;
+    transition: 0.3s ease-out;
+  }
+  
+  .bg-body-tertiary .container .navbar-collapse .navbar-nav .nav-link span:hover {
+    background: orange;
+    color: black;
+    transition: 0.3s ease-in;
+  }
+
+@media (max-width:991px) {
+    .collapse:not(.show) {
+        display: none!important;
+    }
+
+    #basic-navbar-nav {
+        justify-content: flex-start;
+    }
+
+    .bg-body-tertiary .container .navbar-collapse .navbar-nav .nav-link {
+        color: #bebebe;
+        margin: inherit;
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+      }
+}
